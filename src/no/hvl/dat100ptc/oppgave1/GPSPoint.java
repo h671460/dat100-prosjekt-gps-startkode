@@ -9,7 +9,7 @@ public class GPSPoint {
 	private double longitude = 0;
 	private double elevation = 0;
 
-	// TODO - objektvariable
+
 
 	public GPSPoint(int time, double latitude, double longitude, double elevation) {
 
@@ -20,7 +20,7 @@ public class GPSPoint {
 
 	}
 
-	// TODO - get/set metoder
+	
 	public int getTime() {
 
 		return time;
@@ -31,7 +31,7 @@ public class GPSPoint {
 
 		this.time = time;
 
-		// throw new UnsupportedOperationException(TODO.method());
+		
 
 	}
 
@@ -78,11 +78,6 @@ public class GPSPoint {
 		str = getTime() + " (" + getLatitude() + "," + getLongitude() + ") " + getElevation() + "\n";
 		return str;
 
-		// TODO - start
-
-		// throw new UnsupportedOperationException(TODO.method());
-
-		// TODO - slutt
-
+		
 	}
 }

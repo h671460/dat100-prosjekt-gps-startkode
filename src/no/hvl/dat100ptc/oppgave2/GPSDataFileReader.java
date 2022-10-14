@@ -22,6 +22,7 @@ public class GPSDataFileReader {
 
 		String time, latitude, longitude, elevation;
 
+		
 		try {
 
 			br = new BufferedReader(new FileReader(GPSLOGS_DIR + filename + ".csv"));
